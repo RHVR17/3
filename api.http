@@ -1,0 +1,43 @@
+### 
+GET http://localhost:3000
+
+###
+//BUSCAR POR ID
+GET http://localhost:3000/1
+
+
+###
+//DELETE
+DELETE  http://localhost:3000/delete/22
+
+###
+//ADICIONAR
+POST  http://localhost:3000/adicionar
+Content-Type: application/json
+
+{
+  
+  "title": "Iphone 25",
+  "Price": 20000,
+  "description": "El Iphone 25 es un telefono inteligente",
+  "category": "telefono",
+  "image": "wwwwww"
+
+}
+
+###
+//ACTUALIZAR
+PUT  http://localhost:3000/actualizar/23
+Content-Type: application/json
+
+{
+  "id": 23,
+  "title": "Nokia",
+  "price": 30000,
+  "description": "Es un telefono inteligente",
+  "category": "telefono",
+  "image": "SSSSSSSSSSS"
+
+}
+
+
